@@ -3,6 +3,7 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 [RequireComponent(typeof(MeshFilter))]
 public class MeshGenerator : MonoBehaviour
 {
@@ -18,8 +19,6 @@ public class MeshGenerator : MonoBehaviour
 
     Vector3[] vertices;
     int[] triangles;
-
-
     
     void Start()
     {
@@ -75,6 +74,7 @@ public class MeshGenerator : MonoBehaviour
         Debug.Log("Yippee");
         GenerateObjects(building, 23f, 1000, 5);
         GenerateObjects(bush, 5f, 100, 1);
+        
         
 
     }
