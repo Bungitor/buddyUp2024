@@ -19,6 +19,8 @@ public class MeshGenerator : MonoBehaviour
 
     Vector3[] vertices;
     int[] triangles;
+
+    public MeshCollider collider;
     
     void Start()
     {
@@ -72,9 +74,9 @@ public class MeshGenerator : MonoBehaviour
         }
         yield return null;
         Debug.Log("Yippee");
-        GenerateObjects(building, 23f, 1000, 5);
+        GenerateObjects(building, 23f, 1000, 2);
         GenerateObjects(bush, 5f, 100, 1);
-        
+        collider.sharedMesh = mesh;
         
 
     }
