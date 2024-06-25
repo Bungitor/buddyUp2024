@@ -35,7 +35,7 @@ public class PlayerInteract : MonoBehaviour
             
                 Interactable interactable = hitInfo.collider.GetComponent<Interactable>();
                 //Debug.Log(interactable.promptMessage);
-                //e.gameObject.SetActive(true);
+                e.gameObject.SetActive(true);
                 if (Input.GetKeyDown(KeyCode.E))
                 {
                     interactable.BaseInteract();
@@ -43,7 +43,7 @@ public class PlayerInteract : MonoBehaviour
 
                 
             }
-        }// else e.gameObject.SetActive(false);
+        } else e.gameObject.SetActive(false);
 
     }
 }

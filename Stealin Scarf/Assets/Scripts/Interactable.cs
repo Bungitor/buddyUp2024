@@ -12,6 +12,13 @@ public abstract class Interactable : MonoBehaviour
     }
     protected virtual void Interact()
     {
-
+        // add base.interact(); to the script to apply all script in this method. maybe use for sfx?
     }
+
+
+
+
+
+
+
 }
