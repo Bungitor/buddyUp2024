@@ -72,7 +72,7 @@ public class MeshGenerator : MonoBehaviour
         }
         yield return null;
         Debug.Log("Yippee");
-        GenerateObjects(building, 23f, 1000, 5);
+        GenerateObjects(building, 23f, 1000, 0);
         GenerateObjects(bush, 5f, 100, 1);
         
         
