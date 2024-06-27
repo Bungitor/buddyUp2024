@@ -9,7 +9,7 @@ using TMPro;
 public class PlayerInteract : MonoBehaviour
 {
     public Camera _mainCamera;
-    public float distance = 3f;
+    public float distance = 10f;
 
     public TextMeshProUGUI e; 
 
