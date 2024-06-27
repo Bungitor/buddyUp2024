@@ -20,15 +20,16 @@ public class MeshGenerator : MonoBehaviour
     Vector3[] vertices;
     int[] triangles;
 
-    public MeshCollider collider;
+    MeshCollider meshCollider;
     
     void Start()
     {
         mesh = new Mesh();
 
         GetComponent<MeshFilter>().mesh = mesh;
-        StartCoroutine(CreateShape());
-        
+        CreateShape();
+        meshCollider = gameObject.AddComponent<MeshCollider>();
+
     }
 
     private void Update()
@@ -36,7 +37,7 @@ public class MeshGenerator : MonoBehaviour
         UpdateMesh();
     }
 
-    IEnumerator CreateShape()
+    void CreateShape()
     {
         vertices = new Vector3[(xSize + 1) * (zSize + 1)];
 
@@ -72,11 +73,10 @@ public class MeshGenerator : MonoBehaviour
             }
             vert++;
         }
-        yield return null;
         Debug.Log("Yippee");
         GenerateObjects(building, 23f, 1000, 2);
         GenerateObjects(bush, 5f, 100, 1);
-        collider.sharedMesh = mesh;
+        
         
 
     }
@@ -89,6 +89,9 @@ public class MeshGenerator : MonoBehaviour
         mesh.triangles = triangles;
 
         mesh.RecalculateNormals();
+
+        meshCollider.sharedMesh = mesh;
+        meshCollider.sharedMesh.RecalculateBounds();
     }
 
     private void OnDrawGizmos()
@@ -112,4 +115,8 @@ public class MeshGenerator : MonoBehaviour
             }
         }
     }
+
+
+
+
 }
