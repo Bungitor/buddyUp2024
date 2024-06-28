@@ -1,14 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ItemManager : MonoBehaviour
 {
     GameObject[] items = new GameObject[5];
+    public Image[] sprites = new Image[5];
+
+    public Sprite emptySprite;
 
     public int activeSlot = 0;
 
     public Transform spawnPoint;
+
+
     private void Update()
     {
         if (Input.GetAxis("Mouse ScrollWheel") < 0f)
@@ -48,8 +54,10 @@ public class ItemManager : MonoBehaviour
     {
         items[slotNum] = go;
         go.SetActive(false);
-        Debug.Log(go);
-        Debug.Log(slotNum + 1);
+       
+        sprites[slotNum].sprite = go.GetComponent<spriteHolder>().sprite;
+        
+
     }
 
     public void RemoveItem()
@@ -63,6 +71,7 @@ public class ItemManager : MonoBehaviour
             items[activeSlot].GetComponent<Rigidbody>().velocity = GameObject.Find("Platyer").GetComponent<Rigidbody>().velocity;
 
             items[activeSlot] = null;
+            sprites[activeSlot].sprite = emptySprite;
         }
         
     }
