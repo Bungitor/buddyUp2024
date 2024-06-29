@@ -14,8 +14,8 @@ public class MeshGenerator : MonoBehaviour
 
     public LayerMask buildingMask;
 
-    public GameObject building;
-    public GameObject bush;
+    public GameObject[] buildings;
+    public GameObject[] bushes;
 
     Vector3[] vertices;
     int[] triangles;
@@ -74,8 +74,8 @@ public class MeshGenerator : MonoBehaviour
             vert++;
         }
         Debug.Log("Yippee");
-        GenerateObjects(building, 23f, 1000, 0);
-        GenerateObjects(bush, 5f, 100, 1);
+        GenerateRandomObjects(buildings, 23f, 1000, 0);
+        GenerateRandomObjects(bushes, 5f, 100, 1);
         
         
 
@@ -103,15 +103,15 @@ public class MeshGenerator : MonoBehaviour
             Gizmos.DrawSphere(vertices[i], .1f);
         }
     }
-    void GenerateObjects(GameObject GO, float distanceToNeighbour, int spawnAttempts, float heightDiff)
+    void GenerateRandomObjects(GameObject[] GO, float distanceToNeighbour, int spawnAttempts, float heightDiff)
     {
-
         for (int i = 0; i < spawnAttempts; i++)
         {
             Vector3 vertex = vertices[Random.Range(0, vertices.Length - 1)];
             if ((vertex.x < 270 && vertex.z < 270 && vertex.x > 30 && vertex.z > 30) && (!Physics.CheckSphere(vertex, distanceToNeighbour, buildingMask)))
             {
-                Instantiate(GO, new Vector3(vertex.x, vertex.y + heightDiff, vertex.z), new Quaternion(transform.rotation.x, Random.rotation.y, transform.rotation.z, transform.rotation.w));
+                GameObject bingus = GO[Random.Range(0, GO.Length - 1)];
+                Instantiate(bingus, new Vector3(vertex.x, vertex.y + heightDiff, vertex.z), new Quaternion(transform.rotation.x, Random.rotation.y, transform.rotation.z, transform.rotation.w));
             }
         }
     }
