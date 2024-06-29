@@ -16,7 +16,7 @@ public class Building : MonoBehaviour
 
     private void Start()
     {
-        
+        SpawnItems();
     }
 
     void SpawnItems()
@@ -25,15 +25,30 @@ public class Building : MonoBehaviour
         foreach (Transform itemSpawn in itemSpawns)
         {
             List<GameObject> checkedItems = new List<GameObject>();
-            while (checkedItems.Count < itemPool.Length)
-            {
+            //while (checkedItems.Count <= itemPool.Length)
+            //{
+            //    GameObject checkingItem = itemPool[Random.Range(0, itemPool.Length - 1)];
+            //    if (checkedItems.Contains(checkingItem))
+            //    {
+            //        continue;
+            //    }
 
+            //    if (checkingItem.GetComponent<Item>().spawnRarity >= Random.value)
+            //    {
+            //        Instantiate(checkingItem, itemSpawn);
+            //    }
+            //    checkedItems.Add(checkingItem);
+
+            //}
+
+            for (int i = 0; i < 14; i++)
+            {
                 GameObject checkingItem = itemPool[Random.Range(0, itemPool.Length - 1)];
                 if (checkedItems.Contains(checkingItem))
                 {
                     continue;
                 }
-                
+
                 if (checkingItem.GetComponent<Item>().spawnRarity >= Random.value)
                 {
                     Instantiate(checkingItem, itemSpawn);
