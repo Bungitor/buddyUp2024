@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3028433883475106147}
   - component: {fileID: 8723828846967813413}
   - component: {fileID: 252936145427188807}
-  - component: {fileID: 5261723637820930571}
+  - component: {fileID: 6755516871227499223}
   m_Layer: 9
   m_Name: Emerald
   m_TagString: Untagged
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de761a68b1e5c6f4f9a0a4433a0a19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5261723637820930571
+--- !u!114 &6755516871227499223
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,7 +157,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1153693903604504}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8848740fd9e304644904194b8684ef65, type: 3}
+  m_Script: {fileID: 11500000, guid: 9edb074b779bfb54b9cc799c657b80c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnRarity: 0
+  OGHouse: {fileID: 0}
+  value: 0
   sprite: {fileID: 21300000, guid: 948572fdf272e8d4fa108a314a235034, type: 3}

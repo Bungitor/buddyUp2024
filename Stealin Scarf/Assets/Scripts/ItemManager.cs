@@ -55,7 +55,7 @@ public class ItemManager : MonoBehaviour
         items[slotNum] = go;
         go.SetActive(false);
        
-        sprites[slotNum].sprite = go.GetComponent<spriteHolder>().sprite;
+        sprites[slotNum].sprite = go.GetComponent<Item>().sprite;
         
 
     }
