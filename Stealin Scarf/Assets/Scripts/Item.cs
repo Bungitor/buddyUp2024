@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public float spawnRarity;
+    public float spawnRarity = .1f;
 
     public GameObject OGHouse;
 

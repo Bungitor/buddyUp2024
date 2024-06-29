@@ -452,8 +452,10 @@ MonoBehaviour:
   buildingMask:
     serializedVersion: 2
     m_Bits: 64
-  buildings: []
-  bushes: []
+  buildings:
+  - {fileID: 7895563148599586222, guid: 826bef8ffb214154294f6212e6c044a7, type: 3}
+  bushes:
+  - {fileID: 3403428424321694849, guid: 9c3c50b49e2f6064aae0377ac612b18d, type: 3}
 --- !u!23 &1140994039
 MeshRenderer:
   m_ObjectHideFlags: 0
