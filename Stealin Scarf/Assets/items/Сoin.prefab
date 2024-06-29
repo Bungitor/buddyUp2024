@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3241694113988725749}
   - component: {fileID: 5060555094257473178}
   - component: {fileID: 2146030927479489005}
-  - component: {fileID: 4365821931258181019}
+  - component: {fileID: 2786168161375821604}
   m_Layer: 9
   m_Name: "\u0421oin"
   m_TagString: Untagged
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de761a68b1e5c6f4f9a0a4433a0a19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4365821931258181019
+--- !u!114 &2786168161375821604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,7 +156,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1993272356339634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8848740fd9e304644904194b8684ef65, type: 3}
+  m_Script: {fileID: 11500000, guid: 9edb074b779bfb54b9cc799c657b80c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnRarity: 0
+  OGHouse: {fileID: 0}
+  value: 0
   sprite: {fileID: 21300000, guid: d1b1eb5ec2b6ebf41b7dbfe152b4bf1f, type: 3}

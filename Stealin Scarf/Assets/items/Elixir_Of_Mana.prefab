@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8312668759596885043}
   - component: {fileID: 8864986340923428250}
   - component: {fileID: 3090673339645287829}
-  - component: {fileID: 8092782964924159609}
+  - component: {fileID: 5730795865139043361}
   m_Layer: 9
   m_Name: Elixir_Of_Mana
   m_TagString: Untagged
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de761a68b1e5c6f4f9a0a4433a0a19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8092782964924159609
+--- !u!114 &5730795865139043361
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,7 +158,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1836479177069706}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8848740fd9e304644904194b8684ef65, type: 3}
+  m_Script: {fileID: 11500000, guid: 9edb074b779bfb54b9cc799c657b80c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnRarity: 0
+  OGHouse: {fileID: 0}
+  value: 0
   sprite: {fileID: 21300000, guid: 62341fd8d4e193a43aa74db835b70219, type: 3}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4017092563546859801}
   - component: {fileID: 1714291467542205877}
   - component: {fileID: 504892389953689388}
-  - component: {fileID: 13908502988080022}
+  - component: {fileID: 4634639244347709216}
   m_Layer: 9
   m_Name: Pic1
   m_TagString: Untagged
@@ -148,7 +148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de761a68b1e5c6f4f9a0a4433a0a19ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &13908502988080022
+--- !u!114 &4634639244347709216
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -157,7 +157,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1160668369438726}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8848740fd9e304644904194b8684ef65, type: 3}
+  m_Script: {fileID: 11500000, guid: 9edb074b779bfb54b9cc799c657b80c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnRarity: 0
+  OGHouse: {fileID: 0}
+  value: 0
   sprite: {fileID: 21300000, guid: fa64ed962a77d794d95e66ac4f323ad5, type: 3}
