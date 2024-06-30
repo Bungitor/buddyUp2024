@@ -160,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9edb074b779bfb54b9cc799c657b80c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRarity: 1
+  spawnRarity: 0.4
   OGHouse: {fileID: 0}
-  value: 0
+  value: 500
   sprite: {fileID: 21300000, guid: 948572fdf272e8d4fa108a314a235034, type: 3}
