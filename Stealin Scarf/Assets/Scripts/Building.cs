@@ -23,38 +23,9 @@ public class Building : MonoBehaviour
     {
 
         foreach (Transform itemSpawn in itemSpawns)
-        {
-            List<GameObject> checkedItems = new List<GameObject>();
-            //while (checkedItems.Count <= itemPool.Length)
-            //{
-            //    GameObject checkingItem = itemPool[Random.Range(0, itemPool.Length - 1)];
-            //    if (checkedItems.Contains(checkingItem))
-            //    {
-            //        continue;
-            //    }
-
-            //    if (checkingItem.GetComponent<Item>().spawnRarity >= Random.value)
-            //    {
-            //        Instantiate(checkingItem, itemSpawn);
-            //    }
-            //    checkedItems.Add(checkingItem);
-
-            //}
-
-            for (int i = 0; i < 1; i++)
-            {
-                GameObject checkingItem = itemPool[Random.Range(0, itemPool.Length - 1)];
-                if (checkedItems.Contains(checkingItem))
-                {
-                    continue;
-                }
-
-                if (checkingItem.GetComponent<Item>().spawnRarity >= Random.value)
-                {
-                    Instantiate(checkingItem, itemSpawn);
-                }
-                checkedItems.Add(checkingItem);
-            }
+        { 
+            GameObject bingus = itemPool[Random.Range(0, itemPool.Length - 1)];
+            Instantiate(bingus, itemSpawn);
         }
 
         
