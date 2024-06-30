@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7615902986527216068}
   - component: {fileID: 5189349993657666282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,6 +53,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.36595508, y: 0.12257497, z: 2.1985965}
   m_Center: {x: -1.5938137e-10, y: -0.00000005960443, z: 0}
+--- !u!1 &37718542553091428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1191544050450517308}
+  m_Layer: 6
+  m_Name: SpawnPoint (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1191544050450517308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37718542553091428}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -7.27, y: 1.736, z: 1.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &161173086832442669
 GameObject:
   m_ObjectHideFlags: 0
@@ -63,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7572235483524922129}
   - component: {fileID: 7031972732333077947}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01d_PRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +156,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7234367388766654683}
   - component: {fileID: 7314393141896501023}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -178,7 +209,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7717858051048687795}
   - component: {fileID: 6217404510731440338}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontWall_01_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,6 +252,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.0839342, y: 1.0933911, z: 1.2647957}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &424829054097743795
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4767863932960985896}
+  m_Layer: 6
+  m_Name: SpawnPoint (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4767863932960985896
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424829054097743795}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.27, y: 1.736, z: -2.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &558321550014802907
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,7 +293,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5892590087944757911}
   - component: {fileID: 961754167201872146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -274,6 +336,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.36595508, y: 0.12257497, z: 2.1985965}
   m_Center: {x: -1.5938137e-10, y: -0.00000005960443, z: 0}
+--- !u!1 &619857330137757189
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6640130500663920040}
+  m_Layer: 6
+  m_Name: SpawnPoint (12)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6640130500663920040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619857330137757189}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.77, y: 1.736, z: 0.72}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &846851120939890129
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 561497572150002050}
   - component: {fileID: 3244200423105667732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontWall_01_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +430,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4200993108135099901}
   - component: {fileID: 5783227644599983474}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FloorBalcoon_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -391,7 +484,7 @@ GameObject:
   - component: {fileID: 3327596266204851350}
   - component: {fileID: 3170979823284263996}
   - component: {fileID: 423161440468072935}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,6 +556,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &1504011127648354359
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6516349033976003764}
+  m_Layer: 6
+  m_Name: SpawnPoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6516349033976003764
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504011127648354359}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.0000005, y: 1.736, z: -1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1674683921081661415
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,7 +598,7 @@ GameObject:
   - component: {fileID: 4098462060768040467}
   - component: {fileID: 7158556887159308364}
   - component: {fileID: 1630206494836026085}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Building_Administrative _01a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -556,7 +680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3417005288319811986}
   - component: {fileID: 3591871564104521713}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -623,7 +747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7900726345310632722}
   - component: {fileID: 1526826855319541611}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -676,7 +800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 282222521305267859}
   - component: {fileID: 1064827151870160064}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Building_Administrative _01a_PRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -748,7 +872,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5943975819911390451}
   - component: {fileID: 1753513743295762646}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SideWall_02_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -791,6 +915,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.93992203, y: 0.67000395, z: 0.7691475}
   m_Center: {x: -0.0000019771596, y: 0.0000027072044, z: -0.000032062908}
+--- !u!1 &2715551476716625835
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4042525135593528165}
+  m_Layer: 6
+  m_Name: SpawnPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4042525135593528165
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2715551476716625835}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.25, y: 1.736, z: -1.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2746613500413528781
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,7 +956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4100770237355311746}
   - component: {fileID: 2173321656722958114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontWall_02_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -854,7 +1009,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3056351490617003691}
   - component: {fileID: 5640552895311681654}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: InWall_01_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -907,7 +1062,7 @@ GameObject:
   m_Component:
   - component: {fileID: 351957801763929134}
   - component: {fileID: 4317100968454699136}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WallBalcoon_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -961,7 +1116,7 @@ GameObject:
   - component: {fileID: 1949291344466798353}
   - component: {fileID: 5044980190665487436}
   - component: {fileID: 8264948039999559771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01d_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1044,7 +1199,7 @@ GameObject:
   - component: {fileID: 5066835362081515526}
   - component: {fileID: 4150285190738441513}
   - component: {fileID: 38106052200233166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1125,7 +1280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7737050831949806573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: colliders (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1160,7 +1315,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89370688940307332}
   - component: {fileID: 6771703144865334055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1203,6 +1358,68 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.14040416, y: 0.85463, z: 1.6810505}
   m_Center: {x: 0, y: 0, z: -0.00000047683716}
+--- !u!1 &3705109616593895846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4171189298459142656}
+  m_Layer: 6
+  m_Name: SpawnPoint (11)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4171189298459142656
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3705109616593895846}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.02, y: 1.736, z: -1.53}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3763122128805577643
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5357038471321333560}
+  m_Layer: 6
+  m_Name: SpawnPoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5357038471321333560
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3763122128805577643}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.0000005, y: 1.736, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3850424023544368123
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,7 +1431,7 @@ GameObject:
   - component: {fileID: 2628325586148299830}
   - component: {fileID: 4247114402326424957}
   - component: {fileID: 2201542889227195732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01d_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1286,6 +1503,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &3884042892235070066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2382864073560225877}
+  m_Layer: 6
+  m_Name: SpawnPoint (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2382864073560225877
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3884042892235070066}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.5000005, y: 1.736, z: 1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3969261903342381521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1297,7 +1545,7 @@ GameObject:
   - component: {fileID: 3175767686985006331}
   - component: {fileID: 4421820504803452937}
   - component: {fileID: 8776401077711299041}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01d_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1379,7 +1627,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5847322791916793121}
   - component: {fileID: 3705212988785396400}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1432,7 +1680,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8977633651844447169}
   - component: {fileID: 4225950157640609709}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: InWall_03_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1484,7 +1732,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3400869741552425554}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Stair
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1524,7 +1772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2278058617461503209}
   - component: {fileID: 7956924354734702268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1577,7 +1825,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2928004391195469392}
   - component: {fileID: 5018365809932607594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SideWall_01_R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1630,7 +1878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3162504077325389686}
   - component: {fileID: 2776741227611710890}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackWall_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1683,7 +1931,7 @@ GameObject:
   m_Component:
   - component: {fileID: 329367322646100985}
   - component: {fileID: 5843897153646732364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1737,7 +1985,7 @@ GameObject:
   - component: {fileID: 7516415150395555942}
   - component: {fileID: 6379168201174082038}
   - component: {fileID: 6086152803865318242}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1809,6 +2057,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4871831653376682871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 41458478080913724}
+  m_Layer: 6
+  m_Name: SpawnPoint (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &41458478080913724
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4871831653376682871}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.27, y: 1.736, z: -1.28}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5372524613349992079
 GameObject:
   m_ObjectHideFlags: 0
@@ -1819,7 +2098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3429516107128515321}
   - component: {fileID: 1623748450902006364}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1872,7 +2151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4292804215667827031}
   - component: {fileID: 4681732326028549910}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontWall_03_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1915,6 +2194,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.8643756, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &5670979770461357892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3078779702749256276}
+  m_Layer: 6
+  m_Name: SpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3078779702749256276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5670979770461357892}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.75, y: 1.736, z: 0.01}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &5840616109335725606
 GameObject:
   m_ObjectHideFlags: 0
@@ -1926,7 +2236,7 @@ GameObject:
   - component: {fileID: 4368185112721690475}
   - component: {fileID: 4974524683211845926}
   - component: {fileID: 1611634354550173471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Building_Administrative _01a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2009,7 +2319,7 @@ GameObject:
   - component: {fileID: 7024949942714684750}
   - component: {fileID: 4673434506675936714}
   - component: {fileID: 5737336092489114335}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2090,7 +2400,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3828413875245414375}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2138,7 +2448,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6421163098064594860}
   - component: {fileID: 7682370750037867124}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: InWall_02_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2192,7 +2502,7 @@ GameObject:
   - component: {fileID: 1735664829007995827}
   - component: {fileID: 5033400369889240663}
   - component: {fileID: 5269785765953510423}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2275,7 +2585,7 @@ GameObject:
   - component: {fileID: 3945963941598052844}
   - component: {fileID: 5375395142391657982}
   - component: {fileID: 4968632025193772371}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2358,7 +2668,7 @@ GameObject:
   - component: {fileID: 7948639650350635467}
   - component: {fileID: 7468564126304065582}
   - component: {fileID: 2675694311211130594}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Building_Administrative _01a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2441,7 +2751,7 @@ GameObject:
   - component: {fileID: 7775987959527510935}
   - component: {fileID: 3719358762282441633}
   - component: {fileID: 4577605733284677349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2524,7 +2834,7 @@ GameObject:
   - component: {fileID: 7868958088257827155}
   - component: {fileID: 539101844949968167}
   - component: {fileID: 4811422134822566418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2596,6 +2906,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &7062563370433012306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4103266409910504146}
+  m_Layer: 6
+  m_Name: SpawnPoint (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4103266409910504146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7062563370433012306}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.7500005, y: 1.736, z: -1.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7165784748239413886
 GameObject:
   m_ObjectHideFlags: 0
@@ -2606,7 +2947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6727642062476158420}
   - component: {fileID: 4726942117337942416}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2659,7 +3000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4269396862114315164}
   - component: {fileID: 6061585046026226550}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackWall_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2714,7 +3055,7 @@ GameObject:
   - component: {fileID: 6824722905074672232}
   - component: {fileID: 5630352835798387094}
   - component: {fileID: 3274244616449942021}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Building_Administrative _01a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2818,7 +3159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3322507081283193271}
   - component: {fileID: 1201388526734932722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2861,6 +3202,37 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.36595508, y: 0.12257497, z: 2.1985965}
   m_Center: {x: -1.5938137e-10, y: -0.00000005960443, z: 0}
+--- !u!1 &8222895777168486035
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7729908352016267491}
+  m_Layer: 6
+  m_Name: SpawnPoint (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7729908352016267491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8222895777168486035}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.02, y: 1.736, z: 2.22}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8521262626773624493
 GameObject:
   m_ObjectHideFlags: 0
@@ -2871,7 +3243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2457461911313111107}
   - component: {fileID: 7691155602834712753}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SideWall_01_L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2924,7 +3296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6499308883951929127}
   - component: {fileID: 6690377024439856024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: WallBalcoon_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2977,7 +3349,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4861235551327090616}
   - component: {fileID: 1384801086907746319}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Prop_House_Shutter_01e
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3034,6 +3406,37 @@ LODGroup:
     renderers:
     - renderer: {fileID: 4577605733284677349}
   m_Enabled: 1
+--- !u!1 &9106197340389096783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3194150707224832170}
+  m_Layer: 6
+  m_Name: SpawnPoint (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3194150707224832170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9106197340389096783}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5000005, y: 1.736, z: 1.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3673765868581718172}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8216064401093881742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3042,17 +3445,73 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[0]
+      value: 
+      objectReference: {fileID: 3078779702749256276}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[1]
+      value: 
+      objectReference: {fileID: 6640130500663920040}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[2]
+      value: 
+      objectReference: {fileID: 4171189298459142656}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[3]
+      value: 
+      objectReference: {fileID: 41458478080913724}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[4]
+      value: 
+      objectReference: {fileID: 1191544050450517308}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[5]
+      value: 
+      objectReference: {fileID: 4767863932960985896}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[6]
+      value: 
+      objectReference: {fileID: 7729908352016267491}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[7]
+      value: 
+      objectReference: {fileID: 4103266409910504146}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[8]
+      value: 
+      objectReference: {fileID: 2382864073560225877}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[9]
+      value: 
+      objectReference: {fileID: 3194150707224832170}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[10]
+      value: 
+      objectReference: {fileID: 6516349033976003764}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[11]
+      value: 
+      objectReference: {fileID: 5357038471321333560}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemSpawns.Array.data[12]
+      value: 
+      objectReference: {fileID: 4042525135593528165}
     - target: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 150.29758
+      value: 7.6079535
       objectReference: {fileID: 0}
     - target: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.651283
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 37.11628
+      value: 36.311905
       objectReference: {fileID: 0}
     - target: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3086,12 +3545,55 @@ PrefabInstance:
       propertyPath: m_Name
       value: Large House 1 Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 7060264793603960384, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 282222521305267859}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3078779702749256276}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6640130500663920040}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4171189298459142656}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 41458478080913724}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1191544050450517308}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4767863932960985896}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7729908352016267491}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4103266409910504146}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2382864073560225877}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3194150707224832170}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6516349033976003764}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5357038471321333560}
+    - targetCorrespondingSourceObject: {fileID: 4683327572374349586, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4042525135593528165}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
 --- !u!4 &3673765868581718172 stripped
