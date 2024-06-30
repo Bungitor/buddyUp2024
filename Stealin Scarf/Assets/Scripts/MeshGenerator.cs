@@ -126,7 +126,7 @@ public class MeshGenerator : MonoBehaviour
             Vector3 vertex = vertices[Random.Range(0, vertices.Length - 1)];
             if ((vertex.x < 270 && vertex.z < 270 && vertex.x > 30 && vertex.z > 30) && (!Physics.CheckSphere(vertex, distanceToNeighbour, buildingMask)))
             {
-                GameObject bingus = GO[Random.Range(0, GO.Length - 1)];
+                GameObject bingus = GO[Random.Range(0, GO.Length)];
                 Instantiate(bingus, new Vector3(vertex.x, vertex.y + heightDiff, vertex.z), new Quaternion(transform.rotation.x, Random.rotation.y, transform.rotation.z, transform.rotation.w));
             }
         }

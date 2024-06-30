@@ -452,10 +452,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   buildings:
-  - {fileID: 7895563148599586222, guid: 826bef8ffb214154294f6212e6c044a7, type: 3}
-  - {fileID: 2862622011358759231, guid: d35f5fb9ec5d01d49b51dfada0142b0c, type: 3}
-  - {fileID: 7459506270309547727, guid: 5c494b8ffa48d074ba0f10f85cba6ab6, type: 3}
-  - {fileID: 1440670735102837198, guid: b2dfdb080c9c3d845858785619d2ffaf, type: 3}
+  - {fileID: 6044341971914092263, guid: d6c63e3e079af534ea16a7b185864a8b, type: 3}
+  - {fileID: 6204334282497481107, guid: 6ec21d9b3e79d7d4094f8b668e82cb65, type: 3}
+  - {fileID: 6286907437213418414, guid: 5c957185babc8af46ae43269feb37d47, type: 3}
+  - {fileID: 8642074957282482618, guid: 0e8d1a871f6580940a7c7094d2d56fff, type: 3}
   bushes:
   - {fileID: 3403428424321694849, guid: 9c3c50b49e2f6064aae0377ac612b18d, type: 3}
   platyer: {fileID: 2351262653883665521, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}

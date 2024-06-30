@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 6111760164660918182}
   - component: {fileID: 1688746140389671342}
   - component: {fileID: 799904398860652562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Convenience_01a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -224,7 +224,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1374792615797092948}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -257,7 +257,7 @@ GameObject:
   - component: {fileID: 3194341147461313906}
   - component: {fileID: 5207120188868692961}
   - component: {fileID: 2321083258456979052}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Convenience_01a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 2613585268647321414}
   - component: {fileID: 8850720431667936275}
   - component: {fileID: 7575014913107442023}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Convenience_01a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -423,7 +423,7 @@ GameObject:
   - component: {fileID: 2207660093176537326}
   - component: {fileID: 3464322459822553166}
   - component: {fileID: 2485082841065840028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Convenience_01a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -505,7 +505,7 @@ GameObject:
   m_Component:
   - component: {fileID: 110155315347600620}
   - component: {fileID: 7533562406434301284}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Convenience_01a_PRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -571,9 +571,57 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: itemSpawns.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[0]
+      value: 
+      objectReference: {fileID: 1160668369438726, guid: f9963ebeb07cb7846bbb116a6fb4e1e2, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[1]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[2]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[3]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[4]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[5]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[6]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[7]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[8]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[9]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
+    - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: itemPool.Array.data[10]
+      value: 
+      objectReference: {fileID: 1974078223497576, guid: 31805c41f7dac8d478aee32600308a90, type: 3}
     - target: {fileID: 2856176901184639128, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: itemSpawns.Array.data[0]
       value: 
@@ -621,6 +669,10 @@ PrefabInstance:
     - target: {fileID: 7060264793603960384, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: m_Name
       value: Outhouse Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060264793603960384, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

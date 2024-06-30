@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3972209951569349686}
   - component: {fileID: 1936454134327062276}
   - component: {fileID: 3967187248088026275}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4893290542661468820}
   - component: {fileID: 1168751528476077718}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 7652976540738410415}
   - component: {fileID: 3309689617892730802}
   - component: {fileID: 5449288459313562888}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -244,7 +244,7 @@ GameObject:
   - component: {fileID: 2870259076148834379}
   - component: {fileID: 2507952146328208831}
   - component: {fileID: 8458430752290219131}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -325,7 +325,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6545790545616317617}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnPoint (1)
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -358,7 +358,7 @@ GameObject:
   - component: {fileID: 5154646839354633571}
   - component: {fileID: 6322708472487627848}
   - component: {fileID: 5200815039701554282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04f_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 26711299490476931}
   - component: {fileID: 5377334954743160891}
   - component: {fileID: 5820385366434798167}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Foundation_02b_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +524,7 @@ GameObject:
   - component: {fileID: 593084810373838908}
   - component: {fileID: 4108840471111763182}
   - component: {fileID: 6903220551900347289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -607,7 +607,7 @@ GameObject:
   - component: {fileID: 465861636273287801}
   - component: {fileID: 8968434928519466346}
   - component: {fileID: 5172281348606414336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 7226608326328187416}
   - component: {fileID: 5531241831275252371}
   - component: {fileID: 8286735879568439586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 7954031729584262503}
   - component: {fileID: 309207973038102846}
   - component: {fileID: 2239704089812010224}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -835,7 +835,7 @@ GameObject:
   - component: {fileID: 6336158070954728788}
   - component: {fileID: 2273816589554162039}
   - component: {fileID: 4285319459696158942}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -918,7 +918,7 @@ GameObject:
   - component: {fileID: 9026446845555264443}
   - component: {fileID: 5790813651515231986}
   - component: {fileID: 2133263418404394589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1000,7 +1000,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1791191959095561530}
   - component: {fileID: 31065824187147765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Roof_Half_01a_PRE (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1066,7 +1066,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4767196308428586754}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1099,7 +1099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9099779410524334364}
   - component: {fileID: 207498141500364782}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Front_04b_PRE (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1168,7 +1168,7 @@ GameObject:
   - component: {fileID: 6921929247126348623}
   - component: {fileID: 8582584343984397533}
   - component: {fileID: 1952791531297828282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1251,7 +1251,7 @@ GameObject:
   - component: {fileID: 3301642443545520373}
   - component: {fileID: 865317001445733513}
   - component: {fileID: 5397362240102687861}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1335,7 +1335,7 @@ GameObject:
   - component: {fileID: 6572797449823450512}
   - component: {fileID: 1961431114954322278}
   - component: {fileID: 1996746918727669037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04h_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1439,7 +1439,7 @@ GameObject:
   - component: {fileID: 8905127642591074641}
   - component: {fileID: 7713258656093437694}
   - component: {fileID: 4616353085048877166}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1522,7 +1522,7 @@ GameObject:
   - component: {fileID: 5862550861206933835}
   - component: {fileID: 2003673294514838076}
   - component: {fileID: 6565344488719754278}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1605,7 +1605,7 @@ GameObject:
   - component: {fileID: 142135257603251819}
   - component: {fileID: 5198676479974481039}
   - component: {fileID: 4434407647298067678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1689,7 +1689,7 @@ GameObject:
   - component: {fileID: 7462264268020816505}
   - component: {fileID: 8431721481684950338}
   - component: {fileID: 3242736046010298315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1794,7 +1794,7 @@ GameObject:
   - component: {fileID: 2349981697759862992}
   - component: {fileID: 4995051360360475806}
   - component: {fileID: 1673987409402946426}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1896,7 +1896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1878105312270146731}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1929,7 +1929,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5015621438810360148}
   - component: {fileID: 8400400654675941884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1997,7 +1997,7 @@ GameObject:
   - component: {fileID: 3876074362868413849}
   - component: {fileID: 7558566015842090295}
   - component: {fileID: 8077303004805055022}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Roof_Half_01a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2079,7 +2079,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2553929833791691124}
   - component: {fileID: 7944023051274843021}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2146,7 +2146,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9072404226760060336}
   - component: {fileID: 2006596356756733583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_HouseModule_Porch_01d_PRE (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2214,7 +2214,7 @@ GameObject:
   - component: {fileID: 6593870105754116236}
   - component: {fileID: 5564014900570842052}
   - component: {fileID: 6000690645608032381}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04h_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2297,7 +2297,7 @@ GameObject:
   - component: {fileID: 7036547870533738824}
   - component: {fileID: 1714965173492586499}
   - component: {fileID: 7455955315406686685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04h_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2380,7 +2380,7 @@ GameObject:
   - component: {fileID: 3231457137573754896}
   - component: {fileID: 116468147674134717}
   - component: {fileID: 2773559835644325470}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04f_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2463,7 +2463,7 @@ GameObject:
   - component: {fileID: 3518387570676938229}
   - component: {fileID: 6618095804953604770}
   - component: {fileID: 2965749559397125071}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04e_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2547,7 +2547,7 @@ GameObject:
   - component: {fileID: 7066704587404149524}
   - component: {fileID: 2668349824398545082}
   - component: {fileID: 8570177818246127419}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2651,7 +2651,7 @@ GameObject:
   - component: {fileID: 2553769971473405829}
   - component: {fileID: 9020349876167354686}
   - component: {fileID: 245040916954933244}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_HouseModule_Porch_01d_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2733,7 +2733,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5927221709219655650}
   - component: {fileID: 3844052843449585003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2800,7 +2800,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8564575579188915241}
   - component: {fileID: 168518083643138869}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2868,7 +2868,7 @@ GameObject:
   - component: {fileID: 6099948070287725625}
   - component: {fileID: 7887031361578509990}
   - component: {fileID: 142490089863823457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_HouseModule_Porch_01d_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2951,7 +2951,7 @@ GameObject:
   - component: {fileID: 4633823600990792384}
   - component: {fileID: 7495368795216451144}
   - component: {fileID: 3938211610724424742}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3034,7 +3034,7 @@ GameObject:
   - component: {fileID: 4606982939399531496}
   - component: {fileID: 6333258812163132954}
   - component: {fileID: 7847225933324909303}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3117,7 +3117,7 @@ GameObject:
   - component: {fileID: 388752387522989836}
   - component: {fileID: 6442650007774309437}
   - component: {fileID: 704404807462813355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3200,7 +3200,7 @@ GameObject:
   - component: {fileID: 408957929780544846}
   - component: {fileID: 5498637221256735338}
   - component: {fileID: 1385201265146970730}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3283,7 +3283,7 @@ GameObject:
   - component: {fileID: 6139737448001367980}
   - component: {fileID: 5233360423741597270}
   - component: {fileID: 2208321824233959688}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3366,7 +3366,7 @@ GameObject:
   - component: {fileID: 6449378382392804795}
   - component: {fileID: 6628821483605122837}
   - component: {fileID: 7946145424566015943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3450,7 +3450,7 @@ GameObject:
   - component: {fileID: 1103355318555659064}
   - component: {fileID: 4977169032481545116}
   - component: {fileID: 1774981405100101000}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3554,7 +3554,7 @@ GameObject:
   - component: {fileID: 5890956235222541510}
   - component: {fileID: 2696305053174088622}
   - component: {fileID: 5950857634528138813}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3637,7 +3637,7 @@ GameObject:
   - component: {fileID: 2932601861398135649}
   - component: {fileID: 1192819327966632963}
   - component: {fileID: 6425120638918774626}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3718,7 +3718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5111924151238903949}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_House_Comp_03a_PRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3772,7 +3772,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9175920674662841038}
   - component: {fileID: 239070400619579734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04f_PRE (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3840,7 +3840,7 @@ GameObject:
   - component: {fileID: 4724466144496911058}
   - component: {fileID: 7619037180829634127}
   - component: {fileID: 1255140751326881968}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3922,7 +3922,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1388512568332507640}
   - component: {fileID: 2008068798481513688}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3989,7 +3989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 307016228883234791}
   - component: {fileID: 6004393852854963504}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Front_04b_PRE (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4058,7 +4058,7 @@ GameObject:
   - component: {fileID: 5128391629968545260}
   - component: {fileID: 6215608394042742409}
   - component: {fileID: 1099866374731826514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4139,7 +4139,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3156767888198422921}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4172,7 +4172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8708663448039264823}
   - component: {fileID: 3541801555126351913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4240,7 +4240,7 @@ GameObject:
   - component: {fileID: 6660762515515708304}
   - component: {fileID: 1691677332436016817}
   - component: {fileID: 639939661714560676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4300,7 +4300,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4199717711299729466}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -4333,7 +4333,7 @@ GameObject:
   - component: {fileID: 4039697939608120448}
   - component: {fileID: 76975217113149501}
   - component: {fileID: 2296749947861648063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4415,7 +4415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6958893040992488972}
   - component: {fileID: 3226246148753226147}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Front_04h_PRE (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4483,7 +4483,7 @@ GameObject:
   - component: {fileID: 8887689676252837836}
   - component: {fileID: 2819534624379968242}
   - component: {fileID: 2798748204681719592}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4566,7 +4566,7 @@ GameObject:
   - component: {fileID: 6608058911438391598}
   - component: {fileID: 7246017754993206416}
   - component: {fileID: 3248463476334991975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4649,7 +4649,7 @@ GameObject:
   - component: {fileID: 6490753845137051111}
   - component: {fileID: 8617188459515345752}
   - component: {fileID: 4649891787931520051}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4732,7 +4732,7 @@ GameObject:
   - component: {fileID: 2927647622768704365}
   - component: {fileID: 8440367106021355425}
   - component: {fileID: 6343893679160901519}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4815,7 +4815,7 @@ GameObject:
   - component: {fileID: 2143448789912365719}
   - component: {fileID: 7662975049084659804}
   - component: {fileID: 2197534387003033515}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4898,7 +4898,7 @@ GameObject:
   - component: {fileID: 5775975540233752384}
   - component: {fileID: 169240638099982828}
   - component: {fileID: 2351158185612551922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04e_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4981,7 +4981,7 @@ GameObject:
   - component: {fileID: 724290059623884753}
   - component: {fileID: 3775006674834737758}
   - component: {fileID: 369758747011075589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5042,7 +5042,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1875420865478067119}
   - component: {fileID: 6454302080520148651}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5110,7 +5110,7 @@ GameObject:
   - component: {fileID: 7100317400789053434}
   - component: {fileID: 1159136918722615326}
   - component: {fileID: 8577166878665369457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5193,7 +5193,7 @@ GameObject:
   - component: {fileID: 5189668854837087098}
   - component: {fileID: 3859619010830960189}
   - component: {fileID: 8054723134935319643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5276,7 +5276,7 @@ GameObject:
   - component: {fileID: 2942854429466315620}
   - component: {fileID: 6658035500306199662}
   - component: {fileID: 1262091828859170283}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5359,7 +5359,7 @@ GameObject:
   - component: {fileID: 2094603643725396742}
   - component: {fileID: 1412089306173502981}
   - component: {fileID: 2066738307403328146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5442,7 +5442,7 @@ GameObject:
   - component: {fileID: 504020317587340630}
   - component: {fileID: 6534967841051221110}
   - component: {fileID: 4892801892072937858}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5525,7 +5525,7 @@ GameObject:
   - component: {fileID: 2221447971115196140}
   - component: {fileID: 1288454269539668653}
   - component: {fileID: 6489027669696462810}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04e_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5607,7 +5607,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5555951860221595032}
   - component: {fileID: 6748826105032563885}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5673,7 +5673,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7849432322387272372}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnPoint (4)
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -5706,7 +5706,7 @@ GameObject:
   - component: {fileID: 3478340330936470572}
   - component: {fileID: 815224253652129668}
   - component: {fileID: 3426879381635912213}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Roof_Half_01a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5789,7 +5789,7 @@ GameObject:
   - component: {fileID: 3225444565434190260}
   - component: {fileID: 5448217163693468906}
   - component: {fileID: 5291783527051945831}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5870,7 +5870,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4985195427342511233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5904,7 +5904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 208180302987938222}
   - component: {fileID: 4185219536763974883}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Front_04b_PRE (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5973,7 +5973,7 @@ GameObject:
   - component: {fileID: 2981014185640310889}
   - component: {fileID: 5200721958721500089}
   - component: {fileID: 4732582747408417859}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6056,7 +6056,7 @@ GameObject:
   - component: {fileID: 1900350228903130042}
   - component: {fileID: 5247503469382883671}
   - component: {fileID: 4269386819182611407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6140,7 +6140,7 @@ GameObject:
   - component: {fileID: 716142523461320878}
   - component: {fileID: 2809815963518024706}
   - component: {fileID: 6750939818753716055}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6243,7 +6243,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6509041332526934268}
   - component: {fileID: 1156135648393481627}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Foundation_02b_PRE (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6306,7 +6306,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4206190822194871731}
   - component: {fileID: 8575345404870216404}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Front_04b_PRE (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6375,7 +6375,7 @@ GameObject:
   - component: {fileID: 5638170061850764875}
   - component: {fileID: 8655980441950087503}
   - component: {fileID: 8737277996243928150}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04f_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6458,7 +6458,7 @@ GameObject:
   - component: {fileID: 5362196926290121080}
   - component: {fileID: 3477073868726866901}
   - component: {fileID: 8898402430774532827}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6541,7 +6541,7 @@ GameObject:
   - component: {fileID: 3147088521026415269}
   - component: {fileID: 7804407871055784347}
   - component: {fileID: 4200421679198357677}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6624,7 +6624,7 @@ GameObject:
   - component: {fileID: 5507607786458317544}
   - component: {fileID: 4272062871567204241}
   - component: {fileID: 2778736399696480624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04h_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6707,7 +6707,7 @@ GameObject:
   - component: {fileID: 3042857864020859596}
   - component: {fileID: 605796157062293889}
   - component: {fileID: 5910149165993611308}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6769,7 +6769,7 @@ GameObject:
   - component: {fileID: 5442068358221452456}
   - component: {fileID: 6186306413817779007}
   - component: {fileID: 5821921417789283210}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Foundation_02b_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6852,7 +6852,7 @@ GameObject:
   - component: {fileID: 1545433823026217530}
   - component: {fileID: 4993158340835818723}
   - component: {fileID: 6513920463452801666}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6914,7 +6914,7 @@ GameObject:
   - component: {fileID: 2536237924671600654}
   - component: {fileID: 4166523008971678027}
   - component: {fileID: 5588296291016863913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Roof_Half_01a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6997,7 +6997,7 @@ GameObject:
   - component: {fileID: 2581218020504891973}
   - component: {fileID: 205126876803444924}
   - component: {fileID: 8071266530660755386}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04f_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7080,7 +7080,7 @@ GameObject:
   - component: {fileID: 4505968543702588775}
   - component: {fileID: 4650175921751777672}
   - component: {fileID: 772202014391585968}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7163,7 +7163,7 @@ GameObject:
   - component: {fileID: 2554693508079636619}
   - component: {fileID: 5111840632831743058}
   - component: {fileID: 5723521368579282994}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7225,7 +7225,7 @@ GameObject:
   - component: {fileID: 9121057593610878631}
   - component: {fileID: 6797962875752314971}
   - component: {fileID: 4593686549712467917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_HouseModule_Porch_01d_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7308,7 +7308,7 @@ GameObject:
   - component: {fileID: 5688064345843842851}
   - component: {fileID: 7226604805201106247}
   - component: {fileID: 8365965589747771366}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7390,7 +7390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2418638220343868988}
   - component: {fileID: 5128700913831538599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Front_04e_PRE (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7459,7 +7459,7 @@ GameObject:
   - component: {fileID: 1103561452405695467}
   - component: {fileID: 1388953991785882825}
   - component: {fileID: 7134414574619071537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7542,7 +7542,7 @@ GameObject:
   - component: {fileID: 3197156197447404449}
   - component: {fileID: 5912416334664721125}
   - component: {fileID: 7443011936454273824}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Foundation_02b_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7626,7 +7626,7 @@ GameObject:
   - component: {fileID: 6550275715817498641}
   - component: {fileID: 5560953364337104323}
   - component: {fileID: 4997948091512046613}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7731,7 +7731,7 @@ GameObject:
   - component: {fileID: 2240913673546279811}
   - component: {fileID: 7172852249057061264}
   - component: {fileID: 3331612945603077285}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7833,7 +7833,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1643037650968358054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnPoint (2)
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -7864,7 +7864,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1237759242795702370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7896,7 +7896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6588509432109401840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnPoint (3)
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -7929,7 +7929,7 @@ GameObject:
   - component: {fileID: 1689571859315591649}
   - component: {fileID: 73327430317025812}
   - component: {fileID: 5738408983986191109}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8013,7 +8013,7 @@ GameObject:
   - component: {fileID: 8701296734955726230}
   - component: {fileID: 4852055225183365906}
   - component: {fileID: 7974639838102889784}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8115,7 +8115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2056193212912612621}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8149,7 +8149,7 @@ GameObject:
   - component: {fileID: 3602515216209642714}
   - component: {fileID: 1973779217845851501}
   - component: {fileID: 8997888871607409748}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8212,7 +8212,7 @@ GameObject:
   - component: {fileID: 2106505379892978122}
   - component: {fileID: 9100633605104650659}
   - component: {fileID: 3187848319514530132}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8316,7 +8316,7 @@ GameObject:
   - component: {fileID: 614351640502565867}
   - component: {fileID: 7736377943188158027}
   - component: {fileID: 3725383840675501923}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8399,7 +8399,7 @@ GameObject:
   - component: {fileID: 5674327337400068199}
   - component: {fileID: 6762671983625052832}
   - component: {fileID: 8100817918432803648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8481,7 +8481,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1771683557045437247}
   - component: {fileID: 1839046715662738503}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Front_04b_PRE (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8550,7 +8550,7 @@ GameObject:
   - component: {fileID: 6381126445687098216}
   - component: {fileID: 4854862460909684432}
   - component: {fileID: 3839114472169117454}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8633,7 +8633,7 @@ GameObject:
   - component: {fileID: 7835029522932830451}
   - component: {fileID: 4083579411199763872}
   - component: {fileID: 597934550339311676}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8715,7 +8715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1137643183294277106}
   - component: {fileID: 5656432113327048789}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8783,7 +8783,7 @@ GameObject:
   - component: {fileID: 4930823399177493110}
   - component: {fileID: 8261049844167091096}
   - component: {fileID: 6037614818472501653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8866,7 +8866,7 @@ GameObject:
   - component: {fileID: 2473028267591663419}
   - component: {fileID: 1827522989743003775}
   - component: {fileID: 6030610747194769647}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8949,7 +8949,7 @@ GameObject:
   - component: {fileID: 5876460701466191743}
   - component: {fileID: 2094720048166797015}
   - component: {fileID: 3199779269275232294}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Roof_Half_01a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9033,7 +9033,7 @@ GameObject:
   - component: {fileID: 7350022635243940274}
   - component: {fileID: 8246429645988399842}
   - component: {fileID: 3473431609802727976}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9137,7 +9137,7 @@ GameObject:
   - component: {fileID: 8698785993128338838}
   - component: {fileID: 7319410282534172988}
   - component: {fileID: 366756825435606018}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04e_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9220,7 +9220,7 @@ GameObject:
   - component: {fileID: 1517149317889166922}
   - component: {fileID: 3478513685209524810}
   - component: {fileID: 3689164935920759556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9303,7 +9303,7 @@ GameObject:
   - component: {fileID: 6548113033596443646}
   - component: {fileID: 8563287328694991829}
   - component: {fileID: 3359359546642561395}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9385,7 +9385,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8147830902981894855}
   - component: {fileID: 4045934939041026722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Town_Hut_Wall_Painted_Desk_02a_PRE (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9453,7 +9453,7 @@ GameObject:
   - component: {fileID: 5134787665501798350}
   - component: {fileID: 2250955445150452180}
   - component: {fileID: 8470066738686713186}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9536,7 +9536,7 @@ GameObject:
   - component: {fileID: 3726001649815143654}
   - component: {fileID: 2233876868456134448}
   - component: {fileID: 4085233809559469573}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_HouseModule_Porch_01d_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9619,7 +9619,7 @@ GameObject:
   - component: {fileID: 5979569575075675048}
   - component: {fileID: 7221930776055928001}
   - component: {fileID: 910935503298404868}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9682,7 +9682,7 @@ GameObject:
   - component: {fileID: 3372674884311177964}
   - component: {fileID: 838490973130529324}
   - component: {fileID: 2877590584663414728}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Painted_Desk_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9786,7 +9786,7 @@ GameObject:
   - component: {fileID: 4164128855663853086}
   - component: {fileID: 6711921178911866056}
   - component: {fileID: 5467623634468408598}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Hut_Wall_Front_04b_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9933,6 +9933,10 @@ PrefabInstance:
     - target: {fileID: 7060264793603960384, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: m_Name
       value: Medium House 2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060264793603960384, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
