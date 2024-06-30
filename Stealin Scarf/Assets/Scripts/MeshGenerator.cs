@@ -16,9 +16,11 @@ public class MeshGenerator : MonoBehaviour
 
     public GameObject[] buildings;
     public GameObject[] bushes;
+    public GameObject platyer;
 
     Vector3[] vertices;
     int[] triangles;
+    
 
     MeshCollider meshCollider;
     
@@ -76,10 +78,24 @@ public class MeshGenerator : MonoBehaviour
         Debug.Log("Yippee");
         GenerateRandomObjects(buildings, 23f, 1000, 0);
         GenerateRandomObjects(bushes, 5f, 100, 1);
-        
-        
-
+        //PlacePlayer();
     }
+
+    //private void PlacePlayer()
+    //{
+    //    int count = 0;
+    //    do
+    //    {
+    //        Vector3 vertex = vertices[Random.Range(0, vertices.Length - 1)];
+    //        if ((vertex.x < 270 && vertex.z < 270 && vertex.x > 30 && vertex.z > 30) && (!Physics.CheckSphere(vertex, 6, buildingMask)))
+    //        {
+    //            Instantiate(platyer, new Vector3(vertex.x, vertex.y + 6, vertex.z), new Quaternion(transform.rotation.x, Random.rotation.y, transform.rotation.z, transform.rotation.w));
+    //        }
+    //        count++;
+    //    } while (GameObject.Find("Platyer") == null && count < 1000);
+
+    //    //if (GameObject.Find("Platyer") == null) PlacePlayer();
+    //}
 
     void UpdateMesh()
     {

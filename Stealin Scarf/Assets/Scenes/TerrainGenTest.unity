@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.004020766, g: 0.000219485, b: 0.00000005337505, a: 1}
+  m_IndirectSpecularColor: {r: 0.4434076, g: 0.49268502, b: 0.57231385, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -210,13 +210,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 38448849}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2828838, y: 0.7182711, z: 0.6354344, w: 0.016929785}
+  m_LocalRotation: {x: -0.69367206, y: -0.3246925, z: -0.051177636, w: -0.6409171}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -64.589, y: 116.56, z: 85.67}
+  m_LocalEulerAnglesHint: {x: 58.864, y: 469.572, z: 86.408}
 --- !u!1 &598041419
 GameObject:
   m_ObjectHideFlags: 0
@@ -456,6 +456,7 @@ MonoBehaviour:
   - {fileID: 7895563148599586222, guid: 826bef8ffb214154294f6212e6c044a7, type: 3}
   bushes:
   - {fileID: 3403428424321694849, guid: 9c3c50b49e2f6064aae0377ac612b18d, type: 3}
+  platyer: {fileID: 2351262653883665521, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
 --- !u!23 &1140994039
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -588,11 +589,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2351262653883665521, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
       propertyPath: m_Name
-      value: Platyer
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2351262653883665521, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3194850673751154014, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
       propertyPath: far clip plane
       value: 75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3935543149818117073, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064278446856210671, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
+      propertyPath: m_Height
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064278446856210671, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
+      propertyPath: m_Radius
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 8413937612942780502, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
       propertyPath: m_LocalPosition.x
@@ -635,8 +652,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8492691657182846693, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
+      propertyPath: jumpForce
+      value: 8.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492691657182846693, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
+      propertyPath: moveSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8492691657182846693, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
       propertyPath: Ground.m_Bits
-      value: 640
+      value: 192
       objectReference: {fileID: 0}
     - target: {fileID: 8492691657182846693, guid: 5a9d3b44ef57a7642b6569c80fa9e399, type: 3}
       propertyPath: layerMask.m_Bits

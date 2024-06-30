@@ -41,7 +41,7 @@ public class Building : MonoBehaviour
 
             //}
 
-            for (int i = 0; i < 14; i++)
+            for (int i = 0; i < 1; i++)
             {
                 GameObject checkingItem = itemPool[Random.Range(0, itemPool.Length - 1)];
                 if (checkedItems.Contains(checkingItem))
