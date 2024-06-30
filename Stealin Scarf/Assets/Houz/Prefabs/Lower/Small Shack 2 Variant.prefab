@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 821321903894425703}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4793284949563251471}
   - component: {fileID: 368749638913005943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RotatedCollider (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6935424053129546706}
   - component: {fileID: 2225212145648773702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RotatedCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7753373664442406328}
   - component: {fileID: 2635306025953987472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RotatedCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -201,7 +201,7 @@ GameObject:
   - component: {fileID: 2601587745897326393}
   - component: {fileID: 4466976221753965398}
   - component: {fileID: 1458028496052619616}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Tover_01a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,7 +283,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5870258831442366262}
   - component: {fileID: 2047523002952580583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RotatedCollider (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -337,7 +337,7 @@ GameObject:
   - component: {fileID: 347545977346401407}
   - component: {fileID: 6533443736369875145}
   - component: {fileID: 8883840411636896771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collider Holder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -412,7 +412,7 @@ GameObject:
   - component: {fileID: 6557226497644899827}
   - component: {fileID: 2785811193720656030}
   - component: {fileID: 8091368871140549201}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Tover_01a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +500,7 @@ GameObject:
   - component: {fileID: 7827675485862639575}
   - component: {fileID: 3722204417923052343}
   - component: {fileID: 620443234546258334}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Tover_01a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -583,7 +583,7 @@ GameObject:
   - component: {fileID: 6347835116623351298}
   - component: {fileID: 4557975479451534639}
   - component: {fileID: 4320447898526285019}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Tover_01a_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -665,7 +665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 976263060091893279}
   - component: {fileID: 6413572862427167087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_Tover_01a_PRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -781,6 +781,10 @@ PrefabInstance:
     - target: {fileID: 7060264793603960384, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: m_Name
       value: Small Shack 2 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060264793603960384, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

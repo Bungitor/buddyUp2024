@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7280008114627794288}
   - component: {fileID: 7136803579168946969}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Fence_Withy_Seam_02a_PRE (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 99129042206871556}
   - component: {fileID: 931161045089328982}
   - component: {fileID: 8732910387948344040}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Fence_Withy_Seam_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 581591813854124758}
   - component: {fileID: 8712908446521266833}
   - component: {fileID: 3078237882781646048}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Cubby_01d_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 7398684177818499821}
   - component: {fileID: 6007401144156752103}
   - component: {fileID: 1827889080643607931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Fence_Withy_Seam_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 8360327548461327670}
   - component: {fileID: 8710023322230729994}
   - component: {fileID: 35420710624926046}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Fence_Withy_Seam_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -404,7 +404,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5058594377165761711}
   - component: {fileID: 6868526538889189420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Coll (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -456,7 +456,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 112091013785363062}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -488,7 +488,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8529084869549366956}
   - component: {fileID: 1894713923937934131}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Coll (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -542,7 +542,7 @@ GameObject:
   - component: {fileID: 6320728433547912623}
   - component: {fileID: 8274776951193263648}
   - component: {fileID: 5279064145702796420}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Cubby_01d_LOD3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -624,7 +624,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3357430579642878378}
   - component: {fileID: 5743394101001266453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Fence_Withy_Seam_02a_PRE (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -687,7 +687,7 @@ GameObject:
   - component: {fileID: 8294915171631283104}
   - component: {fileID: 6022801386627624539}
   - component: {fileID: 7639674167475760246}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Cubby_01d_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -768,7 +768,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5076346403882002306}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: SpawnPoint (1)
   m_TagString: Untagged
   m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
@@ -801,7 +801,7 @@ GameObject:
   - component: {fileID: 9205461811668428254}
   - component: {fileID: 1015369358511938845}
   - component: {fileID: 3756863214399686975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Fence_Withy_Seam_02a_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -883,7 +883,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6767318804085374769}
   - component: {fileID: 8576916068180325457}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Coll (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -937,7 +937,7 @@ GameObject:
   - component: {fileID: 6434945672149115289}
   - component: {fileID: 3524711310514321223}
   - component: {fileID: 3089163873519728774}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Fence_Withy_Seam_02a_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1020,7 +1020,7 @@ GameObject:
   - component: {fileID: 2972210167103777807}
   - component: {fileID: 2019305782245783015}
   - component: {fileID: 5872932148052074631}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Fence_Withy_Seam_02a_LOD2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1102,7 +1102,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4007898308834783644}
   - component: {fileID: 5539339445718916600}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Cubby_01d_PRE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1175,7 +1175,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7762608093844396969}
   - component: {fileID: 3008307976894207133}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Coll (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1229,7 +1229,7 @@ GameObject:
   - component: {fileID: 2437101233894439400}
   - component: {fileID: 4722165450600988295}
   - component: {fileID: 9134956506299050562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: EA03_Village_OutBuilding_Cubby_01d_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,6 +1364,10 @@ PrefabInstance:
     - target: {fileID: 7060264793603960384, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
       propertyPath: m_Name
       value: Small Shack 1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 7060264793603960384, guid: 605d9ceb50032524981db1f7d8e83ac0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
