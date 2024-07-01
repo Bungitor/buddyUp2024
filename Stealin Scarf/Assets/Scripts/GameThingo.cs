@@ -13,6 +13,7 @@ public class GameThingo : MonoBehaviour
     public GameObject endGameUI;
 
     public float timer;
+    public TMP_Text timeIndicator;
 
     public TMP_Text scoreDisplay;
 
@@ -26,8 +27,9 @@ public class GameThingo : MonoBehaviour
         {
             EndGame(); return ;
         }
-
-
+        
+        timeIndicator.text = Mathf.RoundToInt(timer).ToString();
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (gameIsPaused)
