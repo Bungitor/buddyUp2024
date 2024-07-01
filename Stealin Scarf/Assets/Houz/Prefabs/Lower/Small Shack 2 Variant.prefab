@@ -337,6 +337,8 @@ GameObject:
   - component: {fileID: 347545977346401407}
   - component: {fileID: 6533443736369875145}
   - component: {fileID: 8883840411636896771}
+  - component: {fileID: 2693227559744802475}
+  - component: {fileID: 2822335222378838302}
   m_Layer: 6
   m_Name: Collider Holder
   m_TagString: Untagged
@@ -399,8 +401,50 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.0215454, y: 6.6272326, z: 4.927506}
-  m_Center: {x: 0.3108828, y: 3.3095884, z: 0.272789}
+  m_Size: {x: 0.39859962, y: 6.6272326, z: 4.927506}
+  m_Center: {x: 2.6223555, y: 3.3095884, z: 0.272789}
+--- !u!65 &2693227559744802475
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4611661432263858069}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 4.286747, y: 6.6091285, z: 0.41461372}
+  m_Center: {x: 0.33921432, y: 2.8045647, z: 2.5302057}
+--- !u!65 &2822335222378838302
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4611661432263858069}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 5.197465, y: 6.4228463, z: 0.61344004}
+  m_Center: {x: 0.22703886, y: 3.2049663, z: -1.7403109}
 --- !u!1 &4646644406779091046
 GameObject:
   m_ObjectHideFlags: 0
