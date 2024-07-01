@@ -6,7 +6,7 @@ public class Item : MonoBehaviour
 {
     public float spawnRarity = .1f;
 
-    public GameObject OGHouse;
+    public Building OGHouse;
 
     public float value;
 

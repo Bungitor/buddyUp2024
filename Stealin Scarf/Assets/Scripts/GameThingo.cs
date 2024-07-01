@@ -12,19 +12,27 @@ public class GameThingo : MonoBehaviour
     public GameObject GUI;
     public GameObject endGameUI;
 
+    bool gameEnded = false;
+
     public float timer;
 
     public TMP_Text scoreDisplay;
 
-    
+    ScoreManager scoreMan;
+
+    private void Start()
+    {
+        scoreMan = GameObject.Find("ScoreMan").GetComponent<ScoreManager>();
+    }
 
     private void Update()
     {
 
         timer -= Time.deltaTime;
-        if (timer <= 0)
+        if (timer <= 0 && !gameEnded)
         {
-            EndGame(); return ;
+            EndGame(); //return ;
+            gameEnded = true;
         }
 
 
@@ -82,6 +90,6 @@ public class GameThingo : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
-        //scoreDisplay.text = score.ToString();
+        scoreDisplay.text =  "$ " + scoreMan.Score().ToString();
     }
 }

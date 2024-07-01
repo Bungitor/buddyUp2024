@@ -26,7 +26,7 @@ public class Building : MonoBehaviour
         { 
             GameObject bingus = itemPool[Random.Range(0, itemPool.Length - 1)];
             bingus = Instantiate(bingus, itemSpawn);
-            bingus.GetComponent<Item>().OGHouse = gameObject;
+            bingus.GetComponent<Item>().OGHouse = this;
         } 
     }
 }

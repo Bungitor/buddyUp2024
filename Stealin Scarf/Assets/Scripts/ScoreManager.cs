@@ -7,15 +7,8 @@ public class ScoreManager : MonoBehaviour
 {
     Item[] allItems;
 
-    public LayerMask buildingMask;
-
     public float score;
     float scoreDebug = 0;
-    private void Start()
-    {
-        Score();
-        scoreDebug = score;
-    }
 
     private void Update()
     {
@@ -27,7 +20,8 @@ public class ScoreManager : MonoBehaviour
         }
     }
 
-    public void Score()
+
+    public float Score()
     {
         allItems = GameObject.FindObjectsOfType<Item>();
 
@@ -35,22 +29,26 @@ public class ScoreManager : MonoBehaviour
         {
             Building closestBuilding = FindClosestBuilding(item);
             if (closestBuilding == null) continue;
-            if (closestBuilding == item.OGHouse) continue;
 
-            Building newBuilding = closestBuilding;
+            if (closestBuilding != item.OGHouse)
+            {
+                Building newBuilding = closestBuilding;
 
-            float houseDiff = item.OGHouse.GetComponent<Building>().houseWealth - newBuilding.houseWealth;
-            score += item.value * Mathf.Sign(houseDiff) + houseDiff - scoreDebug;
+                float houseDiff = item.OGHouse.GetComponent<Building>().houseWealth - newBuilding.houseWealth;
+                score += item.value * Mathf.Sign(houseDiff) + houseDiff - scoreDebug;
+            }
         }
-        
-        //return score;
+        return score;
     }
 
     Building FindClosestBuilding(Item item)
     {
         GameObject[] buildings = GameObject.FindGameObjectsWithTag("building");
+
         float currentClosestBuildingDistance = 100;
+
         GameObject closestBuilding = null;
+
         foreach (GameObject building in buildings)
         {
             float distanceFromItemToBuilding = Vector3.Distance(building.transform.position, item.transform.position);
@@ -60,7 +58,7 @@ public class ScoreManager : MonoBehaviour
                 currentClosestBuildingDistance = distanceFromItemToBuilding;
             }
         }
-        if (currentClosestBuildingDistance > 7)
+        if (currentClosestBuildingDistance > 10)
         {
             return null;
         }
