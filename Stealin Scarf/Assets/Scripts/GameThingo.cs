@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class GameThingo : MonoBehaviour
 {
@@ -9,8 +10,13 @@ public class GameThingo : MonoBehaviour
 
     public GameObject pauseMenuUI;
     public GameObject GUI;
+    public GameObject endGameUI;
 
     public float timer;
+
+    public TMP_Text scoreDisplay;
+
+    
 
     private void Update()
     {
@@ -70,7 +76,12 @@ public class GameThingo : MonoBehaviour
         //end ui with "wealth redistributed" then spot for the value. button to go to main menu or quit game. 
         //disable gui and enable end ui, set value text to value number from zoes script.
 
+        endGameUI.SetActive(true);
+        GUI.SetActive(false);
+        Time.timeScale = 0f;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
-
+        //scoreDisplay.text = score.ToString();
     }
 }
