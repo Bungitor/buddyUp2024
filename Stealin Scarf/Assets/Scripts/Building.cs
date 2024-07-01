@@ -7,7 +7,7 @@ public class Building : MonoBehaviour
 {
     public Transform[] itemSpawns;
 
-    float houseWealth;
+    public float houseWealth;
 
     public GameObject[] itemPool;
 
@@ -17,17 +17,16 @@ public class Building : MonoBehaviour
     private void Start()
     {
         SpawnItems();
+        houseWealth = itemSpawns.Length * 100;
     }
 
     void SpawnItems()
     {
-
         foreach (Transform itemSpawn in itemSpawns)
         { 
             GameObject bingus = itemPool[Random.Range(0, itemPool.Length - 1)];
-            Instantiate(bingus, itemSpawn);
-        }
-
-        
+            bingus = Instantiate(bingus, itemSpawn);
+            bingus.GetComponent<Item>().OGHouse = gameObject;
+        } 
     }
 }
