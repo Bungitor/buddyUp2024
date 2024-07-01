@@ -15,14 +15,16 @@ public class GameThingo : MonoBehaviour
     bool gameEnded = false;
 
     public float timer;
+    public TMP_Text timeIndicator;
 
     public TMP_Text scoreDisplay;
+    public TMP_Text highscoreDisplay;
 
-    ScoreManager scoreMan;
+    int highScore;
 
-    private void Start()
+    public void Awake()
     {
-        scoreMan = GameObject.Find("ScoreMan").GetComponent<ScoreManager>();
+        highScore = PlayerPrefs.GetInt("highScore", 0);
     }
 
     private void Update()
@@ -34,8 +36,9 @@ public class GameThingo : MonoBehaviour
             EndGame(); //return ;
             gameEnded = true;
         }
-
-
+        
+        timeIndicator.text = Mathf.RoundToInt(timer).ToString();
+        
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (gameIsPaused)
