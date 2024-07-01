@@ -20,11 +20,17 @@ public class GameThingo : MonoBehaviour
     public TMP_Text scoreDisplay;
     public TMP_Text highscoreDisplay;
 
+    ScoreManager scoreMan;
+
     int highScore;
 
     public void Awake()
     {
         highScore = PlayerPrefs.GetInt("highScore", 0);
+    }
+    private void Start()
+    {
+        scoreMan = GameObject.FindObjectOfType<ScoreManager>();
     }
 
     private void Update()
