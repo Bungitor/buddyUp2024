@@ -6,6 +6,7 @@ TagManager:
   tags:
   - staff
   - sword
+  - building
   layers:
   - Default
   - TransparentFX
