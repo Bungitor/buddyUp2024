@@ -87,7 +87,11 @@ public class GameThingo : MonoBehaviour
     {
         Application.Quit();
     }
-
+    public void ResetHighscore()
+    {
+        PlayerPrefs.SetInt("highScore", 0);
+        highscoreDisplay.text = "$ " + highScore.ToString();
+    }
     public void EndGame()
     {
         //end ui with "wealth redistributed" then spot for the value. button to go to main menu or quit game. 
@@ -100,5 +104,12 @@ public class GameThingo : MonoBehaviour
         Cursor.visible = true;
 
         scoreDisplay.text =  "$ " + scoreMan.Score().ToString();
+
+        if (scoreMan.Score() > highScore)
+        {
+            PlayerPrefs.SetInt("highScore", Mathf.RoundToInt(scoreMan.Score()));
+        }
+
+        highscoreDisplay.text = "$ " + highScore.ToString();
     }
 }
