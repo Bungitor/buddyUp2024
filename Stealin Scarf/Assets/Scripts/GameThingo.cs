@@ -16,8 +16,14 @@ public class GameThingo : MonoBehaviour
     public TMP_Text timeIndicator;
 
     public TMP_Text scoreDisplay;
+    public TMP_Text highscoreDisplay;
 
-    
+    int highScore;
+
+    public void Awake()
+    {
+        highScore = PlayerPrefs.GetInt("highScore", 0);
+    }
 
     private void Update()
     {
