@@ -77,7 +77,7 @@ public class MeshGenerator : MonoBehaviour
         }
         Debug.Log("Yippee");
         GenerateRandomObjects(buildings, 23f, 1000, 0);
-        GenerateRandomObjects(bushes, 5f, 100, 1);
+        GenerateRandomObjects(bushes, 5f, 600, 0);
         //PlacePlayer();
     }
 

@@ -14,6 +14,7 @@ public class ItemManager : MonoBehaviour
 
     public Transform spawnPoint;
 
+    public AudioSource playSound;
 
     private void Update()
     {
@@ -57,6 +58,7 @@ public class ItemManager : MonoBehaviour
        
         sprites[slotNum].sprite = go.GetComponent<Item>().sprite;
         
+        playSound.Play();
 
     }
 
@@ -72,6 +74,7 @@ public class ItemManager : MonoBehaviour
 
             items[activeSlot] = null;
             sprites[activeSlot].sprite = emptySprite;
+            playSound.Play();
         }
         
     }
