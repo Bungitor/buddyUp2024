@@ -10,10 +10,11 @@ public class ScoreManager : MonoBehaviour
     public LayerMask buildingMask;
 
     public float score;
-
+    float scoreDebug = 0;
     private void Start()
     {
-        
+        Score();
+        scoreDebug = score;
     }
 
     private void Update()
@@ -39,7 +40,7 @@ public class ScoreManager : MonoBehaviour
             Building newBuilding = closestBuilding;
 
             float houseDiff = item.OGHouse.GetComponent<Building>().houseWealth - newBuilding.houseWealth;
-            score += item.value * Mathf.Sign(houseDiff) + houseDiff;
+            score += item.value * Mathf.Sign(houseDiff) + houseDiff - scoreDebug;
         }
         
         //return score;
@@ -64,7 +65,6 @@ public class ScoreManager : MonoBehaviour
             return null;
         }
         return closestBuilding.GetComponent<Building>();
-
     }
     private void OnDrawGizmos()
     {
